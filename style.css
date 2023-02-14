@@ -1,0 +1,325 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald", sans-serif;
+}
+
+.container {
+  background-color: #ccd5ae;
+}
+
+.logo_loja {
+  padding-top: 20px;
+  height: 200px;
+}
+
+.cabeçalho {
+  padding: 0 0 15px 100px;
+}
+
+#carro {
+  top: 0;
+  right: 0;
+  height: 40px;
+  position: absolute;
+  margin-top: 90px;
+  margin-right: 200px;
+}
+
+#carro:hover {
+  height: 50px;
+  transition-duration: 2s;
+  cursor: pointer;
+}
+
+#linhas {
+  top: 0;
+  right: 0;
+  height: 40px;
+  position: absolute;
+  margin-top: 90px;
+  margin-right: 120px;
+}
+
+#linhas:hover {
+  height: 50px;
+  transition-duration: 2s;
+  cursor: pointer;
+}
+
+#coracao {
+  top: 0;
+  right: 0;
+  height: 40px;
+  position: absolute;
+  margin-top: 90px;
+  margin-right: 280px;
+}
+
+#coracao:hover {
+  height: 50px;
+  transition-duration: 2s;
+  cursor: pointer;
+}
+
+#pesquisar {
+  position: absolute;
+  margin-left: 445px;
+  margin-top: 30px;
+  height: 25px;
+  width: 350px;
+  align-items: center;
+}
+
+.nav_itens {
+  text-align: center;
+  border: 2px solid black;
+  padding: 10px;
+  word-spacing: 150px;
+  font-style: none;
+  font-size: 20px;
+  background-color: aliceblue;
+}
+
+.nav_itens a {
+  text-decoration: none;
+}
+
+#oft_day {
+  word-spacing: 8px;
+}
+
+input[type="text"] {
+  font-size: 20px;
+}
+
+.best-sellers {
+  margin: 50px 0;
+}
+
+.melhores_vendas {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: solid black 2px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 25px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+footer {
+  text-decoration: none;
+}
+
+#link, #link2, .link2 {
+  transition: all 0.9s;
+}
+
+#link:hover {
+  transform: scale(1.1);
+  font-size: 23px;
+}
+
+#link2:hover {
+  transform: scale(1.1);
+  font-size: 23px;
+}
+
+.link2:hover {
+  transform: scale(3.1);
+  font-size: 23px;
+}
+
+#link4 {
+  transition: all 0.9s;
+}
+
+#link4:hover {
+  transform: scale(1.1);
+  font-size: 30px;
+}
+
+#img_pc {
+  width: 130px;
+  float: right;
+  margin-top: 17px;
+  margin-right: 50px;
+}
+
+h2 {
+  margin-left: 1%;
+}
+
+.categorias {
+  border-style: solid;
+  padding: 25px;
+  margin: 20px;
+  background-color: #e9edc9;
+}
+
+.img_card {
+  width: 110px;
+  float: right;
+  margin-top: 25px;
+  margin-right: 50px;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.icon-container i {
+  margin-right: 10px;
+}
+
+.categorias2 {
+  position: relative;
+  display: inline-block;
+}
+
+.categorias-titulo {
+  font-size: 20px;
+  padding: 3px;
+  cursor: pointer;
+  border: none;
+}
+
+.categorias-opcoes {
+  position: absolute;
+  z-index: 1;
+  display: none;
+  top: 17px;
+  left: 0px;
+  width: 100%;
+}
+
+.categorias-opcoes li {
+  list-style: none;
+  background-color: #f1f1f1;
+  color: black;
+  padding: 8px;
+  cursor: pointer;
+  border: solid black 1px;
+}
+
+.categorias-opcoes li:hover {
+  background-color: #ddd;
+}
+
+.categorias2:hover .categorias-opcoes {
+  display: block;
+  transition-delay: 2s;
+}
+
+.bto {
+  background-color: #ff6600;
+  border-radius: 50px;
+  box-shadow: 0px 0px 10px #aaa;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  padding: 10px 15px;
+  transition: all 0.2s ease-in-out;
+}
+
+.bto:hover {
+  background-color: #ff8822;
+  box-shadow: 0px 0px 20px #aaa;
+  transform: translateY(-2px);
+}
+
+#l:hover {
+  color: aqua;
+  font-style: italic;
+  cursor: none;
+}
+#u:hover {
+  color: rgb(214, 21, 101);
+  font-style: italic;
+  cursor: none;
+}
+#c:hover {
+  color: rgb(238, 112, 28);
+  font-style: italic;
+  cursor: none;
+}
+#a:hover {
+  color: rgb(119, 0, 255);
+  font-style: italic;
+  cursor: none;
+}
+#s:hover {
+  color: rgb(199, 135, 175);
+  font-style: italic;
+  cursor: none;
+}
+#d- {
+  padding-left: 9px;
+}
+#d-:hover {
+  color: rgb(245, 211, 19);
+  font-style: italic;
+  cursor: none;
+}
+#a-:hover {
+  color: rgb(37, 255, 17);
+  font-style: italic;
+  cursor: none;
+}
+#m-:hover {
+  color: rgb(121, 5, 1);
+  font-style: italic;
+  cursor: none;
+}
+#a-:hover {
+  color: rgba(94, 11, 172, 0.11);
+  font-style: italic;
+  cursor: none;
+}
+#s-:hover {
+  color: rgb(248, 248, 248);
+  font-style: italic;
+  cursor: none;
+}
+#c-:hover {
+  color: rgb(127, 153, 35);
+  font-style: italic;
+  cursor: none;
+}
+#e-:hover {
+  color: rgb(228, 28, 72);
+  font-style: italic;
+  cursor: none;
+}
+#n-:hover {
+  color: rgb(10, 73, 73);
+  font-style: italic;
+  cursor: none;
+}
+#o-:hover {
+  color: rgb(4, 245, 245);
+  font-style: italic;
+  cursor: none;
+}
+
+.nome  {
+  display: inline-block;
+}
+
+.name {
+  display: inline-block;
+}
